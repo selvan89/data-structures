@@ -17,7 +17,6 @@ Graph.prototype.addNode = function(node){
 
   this.storage[node] = node;
   this.edge[node] = [];
-  console.log('this nodes edge: ', this.edge[node])
 };
 
 Graph.prototype.contains = function(node){
